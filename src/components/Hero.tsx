@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Shield, Trophy, Infinity } from "lucide-react";
 import logo from "@/assets/logo-curso-razor-pages.png";
 
 export const Hero = () => {
@@ -18,36 +19,40 @@ export const Hero = () => {
           <div className="mb-8 flex justify-center">
             <img 
               src={logo} 
-              alt="Curso Razor Pages" 
+              alt="Curso Razor Pages Pro" 
               className="w-full max-w-2xl h-auto"
             />
           </div>
           
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            Domine o ASP.NET Razor Pages do Zero ao Avançado
-          </h2>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-foreground leading-tight">
+            O Caminho Mais Rápido para se Tornar um <span className="text-primary">Desenvolvedor Fullstack .NET</span> e Conquistar sua Primeira Vaga
+          </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Aprenda a criar aplicações web completas com ASP.NET Razor Pages. 
-            Do ambiente de desenvolvimento até deploy na Azure, construa um blog profissional passo a passo.
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+            Pare de se perder na complexidade de SPAs e Microsserviços agora. Aprenda a criar, do zero, aplicações web completas, seguras e performáticas — do código ao deploy na Azure — usando a tecnologia que o mercado corporativo realmente exige.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
-              onClick={scrollToPrice}
-            >
-              Começar Agora
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-8 py-6"
-              onClick={() => document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Ver Conteúdo
-            </Button>
+          <Button 
+            size="lg" 
+            className="text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all mb-6"
+            onClick={scrollToPrice}
+          >
+            QUERO DOMINAR O ASP.NET AGORA
+          </Button>
+          
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <Shield className="w-4 h-4 text-primary" />
+              <span>Acesso Imediato</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Trophy className="w-4 h-4 text-primary" />
+              <span>Garantia de 7 Dias</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Infinity className="w-4 h-4 text-primary" />
+              <span>Acesso Vitalício</span>
+            </div>
           </div>
         </div>
       </div>
