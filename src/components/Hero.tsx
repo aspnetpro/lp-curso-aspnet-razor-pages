@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Trophy, Infinity } from "lucide-react";
 import logo from "@/assets/logo-curso-razor-pages.png";
+import heroBg from "@/assets/hero-bg.jpg";
 
 export const Hero = () => {
   const scrollToPrice = () => {
@@ -9,18 +10,28 @@ export const Hero = () => {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
       <div 
-        className="absolute inset-0 opacity-50"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-background/80" />
+      
+      {/* Gradient overlay */}
+      <div 
+        className="absolute inset-0 opacity-60"
         style={{ background: 'var(--hero-gradient)' }}
       />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <div className="mb-8 flex justify-center">
+          <div className="mb-6 flex justify-center">
             <img 
               src={logo} 
               alt="Curso Razor Pages Pro" 
-              className="w-full max-w-2xl h-auto"
+              className="w-full max-w-md h-auto"
             />
           </div>
           
