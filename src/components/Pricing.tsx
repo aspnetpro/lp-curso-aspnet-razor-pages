@@ -36,11 +36,16 @@ export const Pricing = () => {
             <div className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
               Oferta Especial
             </div>
+            <div className="mb-2">
+              <span className="text-2xl text-muted-foreground">até</span>
+              <span className="text-7xl md:text-8xl font-extrabold text-primary drop-shadow-lg mx-2">11x</span>
+              <span className="text-2xl text-muted-foreground">de</span>
+            </div>
             <div className="mb-4">
-              <span className="text-7xl md:text-8xl font-extrabold text-primary drop-shadow-lg">R$ 47</span>
+              <span className="text-6xl md:text-7xl font-extrabold text-primary">R$ 5,22</span>
             </div>
             <p className="text-lg text-muted-foreground font-medium">
-              Pagamento único • Acesso vitalício
+              ou R$ 47,00 à vista • Acesso vitalício
             </p>
           </div>
           
