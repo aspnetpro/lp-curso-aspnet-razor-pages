@@ -17,7 +17,7 @@ const features = [
 ];
 
 const getTimeRemaining = () => {
-  const endDate = new Date("2025-01-01T00:00:00").getTime();
+  const endDate = new Date("2026-01-01T00:00:00").getTime();
   const now = new Date().getTime();
   const difference = endDate - now;
 
