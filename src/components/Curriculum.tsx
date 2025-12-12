@@ -99,6 +99,62 @@ const modules = [
       { name: "Gerenciamento de categorias", duration: "18:34" },
       { name: "Gerenciamento de comentários", duration: "8:59" }
     ]
+  },
+  {
+    title: "Módulo 6 - Melhorias e otimizações",
+    lessons: [
+      { name: "Introdução ao Módulo 6 - Melhorias e otimizações", duration: "2:30" },
+      { name: "Instalando o Mini Profiler", duration: "8:45" },
+      { name: "Criando uma página de erro customizada", duration: "6:12" },
+      { name: "Paginação de posts", duration: "12:34" },
+      { name: "Carregando comentários com Ajax", duration: "9:18" },
+      { name: "Paginação de comentários", duration: "7:22" },
+      { name: "Trabalhando com cache de aplicação (MemoryCache)", duration: "11:05" },
+      { name: "Trabalhando com cache de saída (Outputcache)", duration: "8:47" },
+      { name: "Trabalhando com cache de conteúdo (Arquivos)", duration: "10:33" },
+      { name: "Trabalhando com editor HTML", duration: "14:21" },
+      { name: "Configurando um armazenamento local", duration: "6:55" },
+      { name: "Upload e exibição de imagens usando o Azure Blob Storage", duration: "15:42" },
+      { name: "Criando uma conta de armazenamento no Azure", duration: "5:18" },
+      { name: "Carregando lista de posts com Ajax", duration: "11:27" },
+      { name: "Autocomplete de categoria ao cadastrar/editar um post", duration: "9:44" },
+      { name: "Informar Tags ao cadastrar/editar um post", duration: "8:36" },
+      { name: "Minificação de arquivos", duration: "5:52" },
+      { name: "Otimização de imagens", duration: "7:15" }
+    ]
+  },
+  {
+    title: "Módulo 7 - Indo para Produção",
+    lessons: [
+      { name: "Introdução ao Módulo 7 - Indo para Produção", duration: "2:15" },
+      { name: "Registrando um domínio .com.br", duration: "6:33" },
+      { name: "Contratando um DNS (CloudFlare)", duration: "8:12" },
+      { name: "Configurando o apontamento DNS", duration: "5:47" },
+      { name: "Configurando certificado digital", duration: "7:28" },
+      { name: "Configurando domínio no Mailgun", duration: "9:15" },
+      { name: "Criando uma conta no Search Console", duration: "4:42" },
+      { name: "Configurando o Search Console", duration: "6:18" },
+      { name: "Criando uma conta no Google Analytics", duration: "5:55" },
+      { name: "Instalando Google Analytics", duration: "7:33" },
+      { name: "Medindo desempenho (Lighthouse, Gmetrix, etc)", duration: "12:08" }
+    ]
+  },
+  {
+    title: "Módulo 8 - Desafios",
+    lessons: [
+      { name: "Introdução ao Módulo 8 - Desafios", duration: "3:10" },
+      { name: "Moderação de comentários", duration: "10:45" },
+      { name: "Integração com Disqus", duration: "8:22" },
+      { name: "Utilizar templates para envio de email", duration: "12:15" },
+      { name: "Redirecionamento automático quando muda o permalink de um post", duration: "9:38" },
+      { name: "Cadastro de Newsletter", duration: "11:52" },
+      { name: "Integração com Redes Sociais (Compartilhamento)", duration: "8:17" },
+      { name: "Publicar/despublicar um post", duration: "6:44" },
+      { name: "Gestão de usuários do painel administrativo com perfis de acesso", duration: "15:33" },
+      { name: "Feed RSS", duration: "7:28" },
+      { name: "Imagem de capa nos posts", duration: "9:12" },
+      { name: "Paginação numérica dos posts", duration: "8:55" }
+    ]
   }
 ];
 
@@ -113,7 +169,7 @@ export const Curriculum = () => {
             Conteúdo Completo do Curso
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            {totalLessons} aulas práticas organizadas em 6 módulos
+            {totalLessons} aulas práticas organizadas em 8 módulos
           </p>
         </div>
         
