@@ -59,8 +59,11 @@ export const Pricing = () => {
           <Button 
             size="lg" 
             className="w-full text-lg py-6 shadow-lg hover:shadow-xl transition-all"
+            asChild
           >
-            Garantir Minha Vaga Agora
+            <a href="https://pay.kiwify.com.br/0DlsvX7" target="_blank" rel="noopener noreferrer">
+              Garantir Minha Vaga Agora
+            </a>
           </Button>
           
           <p className="text-center text-xs text-muted-foreground mt-4">
