@@ -36,7 +36,7 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-foreground leading-tight">
-            O Caminho Mais Rápido para se Tornar um <span className="text-primary">Desenvolvedor ASP .NET</span> e Conquistar sua Primeira Vaga
+            O Caminho Mais Rápido para se Tornar um <span className="text-primary">Desenvolvedor ASP .NET</span> e Conquistar seu espaço no mercado de trabalho
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
