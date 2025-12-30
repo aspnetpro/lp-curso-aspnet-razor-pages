@@ -60,7 +60,7 @@ export const Pricing = () => {
         <div className="max-w-lg mx-auto mb-6 p-4 bg-destructive/10 border border-destructive/30 rounded-lg animate-fade-in">
           <div className="flex items-center justify-center gap-2 mb-3">
             <Clock className="w-5 h-5 text-destructive animate-pulse" />
-            <span className="text-destructive font-bold text-lg">Oferta válida até 31/12!</span>
+            <span className="text-destructive font-bold text-lg">Oferta válida até 31/12/2025!</span>
           </div>
           <div className="flex justify-center gap-3">
             <div className="text-center bg-background/50 px-3 py-2 rounded-lg">
@@ -81,7 +81,7 @@ export const Pricing = () => {
             </div>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-3">
-            Depois volta para <span className="line-through text-destructive font-semibold">R$ 297,00</span>
+            Depois volta para <span className="line-through text-destructive font-semibold">R$ 197,00</span>
           </p>
         </div>
         
@@ -91,18 +91,18 @@ export const Pricing = () => {
         >
           <div className="text-center mb-8">
             <div className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
-              Oferta Especial de Lançamento
+              Oferta Especial de Fim de Ano
             </div>
             <div className="mb-2">
-              <span className="line-through text-muted-foreground text-xl">De R$ 297,00</span>
+              <span className="line-through text-muted-foreground text-xl">De R$ 197,00</span>
             </div>
             <div className="mb-2">
               <span className="text-2xl text-muted-foreground">até</span>
-              <span className="text-7xl md:text-8xl font-extrabold text-primary drop-shadow-lg mx-2">11x</span>
+              <span className="text-7xl md:text-8xl font-extrabold text-primary drop-shadow-lg mx-2">10x</span>
               <span className="text-2xl text-muted-foreground">de</span>
             </div>
             <div className="mb-4">
-              <span className="text-6xl md:text-7xl font-extrabold text-primary">R$ 5,22</span>
+              <span className="text-6xl md:text-7xl font-extrabold text-primary">R$ 5,65</span>
             </div>
             <p className="text-lg text-muted-foreground font-medium">
               ou R$ 47,00 à vista • Acesso vitalício
@@ -125,7 +125,7 @@ export const Pricing = () => {
             className="w-full text-lg py-6 shadow-lg hover:shadow-xl transition-all"
             asChild
           >
-            <a href="https://pay.kiwify.com.br/0DlsvX7" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.kiwify.com.br/Avl2i7g" target="_blank" rel="noopener noreferrer">
               Garantir Minha Vaga Agora
             </a>
           </Button>

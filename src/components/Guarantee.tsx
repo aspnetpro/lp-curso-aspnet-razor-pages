@@ -24,7 +24,7 @@ export const Guarantee = () => {
             <Button 
               size="lg" 
               className="text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all"
-              onClick={() => window.open('https://pay.kiwify.com.br/0DlsvX7', '_blank')}
+              onClick={() => window.open('https://pay.kiwify.com.br/Avl2i7g', '_blank')}
             >
               COMEÇAR AGORA COM RISCO ZERO
             </Button>
