@@ -34,10 +34,10 @@ export const Pricing = () => {
         >
           <div className="text-center mb-8">
             <div className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
-              Oferta Especial de Fim de Ano
+              Oferta Especial em 2026
             </div>
             <div className="mb-2">
-              <span className="line-through text-muted-foreground text-xl">De R$ 197,00</span>
+              <span className="line-through text-muted-foreground text-xl">De R$ 297,00</span>
             </div>
             <div className="mb-4">
               <span className="text-6xl md:text-7xl font-extrabold text-primary">R$ 97,00</span>
