@@ -7,7 +7,7 @@ const faqs = [
   },
   {
     question: "Razor Pages ainda é usado? Achei que tudo era React.",
-    answer: "Sim! Razor Pages é extremamente popular em ambientes corporativos, intranets e sistemas de gestão onde a produtividade e SEO são prioridades. É a base fundamental do ASP.NET Core."
+    answer: "Sim! Razor Pages é extremamente popular em ambientes corporativos, intranets e sistemas de gestão onde a produtividade e SEO são prioridades. É a base fundamental do ASP .NET Core."
   },
   {
     question: "Vou receber certificado?",

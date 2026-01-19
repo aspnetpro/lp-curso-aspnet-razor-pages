@@ -1,6 +1,6 @@
 # Landing page do curso Razor Pages
 
-Landing page em React/Vite para o curso ASP.NET Razor Pages.
+Landing page em React/Vite para o curso ASP .NET Razor Pages.
 
 ## Stack
 - Vite + React + TypeScript

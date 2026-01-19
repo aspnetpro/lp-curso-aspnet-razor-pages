@@ -6,7 +6,7 @@ const features = [
   "Acesso vitalício ao curso completo",
   "Mais de 80 aulas práticas",
   "Projeto real: Blog profissional",
-  "Aprenda ASP.NET Razor Pages do zero",
+  "Aprenda ASP .NET Razor Pages do zero",
   "Entity Framework Core e SQL Server",
   "Deploy e CI/CD com Azure",
   "Autenticação e autorização",

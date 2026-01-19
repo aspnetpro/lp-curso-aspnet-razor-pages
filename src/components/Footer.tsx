@@ -7,7 +7,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Curso Razor Pages. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            Aprenda a criar aplicações web profissionais com ASP.NET
+            Aprenda a criar aplicações web profissionais com ASP .NET
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ const modules = [
     title: "Introdução",
     lessons: [
       { name: "Qual objetivo do curso?", duration: "3:53" },
-      { name: "Para que serve o ASP.NET Razor Pages?", duration: "3:08" },
+      { name: "Para que serve o ASP .NET Razor Pages?", duration: "3:08" },
       { name: "O que iremos (e não iremos) aprender?", duration: "3:37" },
       { name: "Requisitos mínimos para o curso", duration: "1:01" },
       { name: "Tecnologia, Bibliotecas e Ferramentas", duration: "3:46" },
@@ -25,7 +25,7 @@ const modules = [
       { name: "Criando um aplicativo web no Azure", duration: "6:45" },
       { name: "Criando um banco de dados SQL Server no Azure", duration: "10:01" },
       { name: "Configurando deploy automatizado", duration: "2:50" },
-      { name: "Criando o projeto ASP.NET Razor Pages", duration: "8:25" },
+      { name: "Criando o projeto ASP .NET Razor Pages", duration: "8:25" },
       { name: "Realizando o primeiro commit", duration: "8:46" }
     ]
   },

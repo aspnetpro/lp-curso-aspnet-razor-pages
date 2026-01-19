@@ -36,11 +36,11 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-foreground leading-tight">
-            O Caminho Mais Rápido para se Tornar um <span className="text-primary">Desenvolvedor ASP .NET</span> e Conquistar seu espaço no mercado de trabalho
+            Construa e publique seu primeiro projeto real em <span className="text-primary">ASP .NET Core</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Pare de se perder na complexidade de SPAs e Microsserviços agora. Aprenda a criar, do zero, aplicações web completas, seguras e performáticas — do código ao deploy na Azure — usando a tecnologia que o mercado corporativo realmente exige.
+            Aprenda a criar, do zero, aplicações web completas, seguras e performáticas - do código ao deploy na Azure - usando a tecnologia que o mercado realmente exige.
           </p>
           
           <Button 
@@ -48,7 +48,7 @@ export const Hero = () => {
             className="text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all mb-6"
             onClick={scrollToPrice}
           >
-            QUERO DOMINAR O ASP.NET AGORA
+            QUERO DOMINAR O ASP .NET AGORA
           </Button>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">

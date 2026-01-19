@@ -22,7 +22,7 @@ export const Instructor = () => {
             
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold text-primary mb-3">
-                Especialista em ASP.NET, Arquiteto de Software e CTO na Leanwork Group
+                Especialista em ASP .NET, Arquiteto de Software e CTO na Leanwork Group
               </h3>
               
               <p className="text-muted-foreground mb-4 leading-relaxed">

@@ -27,7 +27,7 @@ export const Problem = () => {
                 </p>
               </div>
               <p className="text-xl text-center mt-6 text-primary font-semibold">
-                É aqui que entra o ASP.NET Razor Pages.
+                É aqui que entra o ASP .NET Razor Pages.
               </p>
             </div>
           </div>
